@@ -1,0 +1,87 @@
+.container{
+    width: 50vw;
+    height: 50vh;
+    background-color: aqua;
+    border: 5px solid black;
+overflow: hidden;
+animation: animate 10s linear 2s infinite alternate-reverse;
+background-repeat: no-repeat;
+background-size: contain;
+}
+@keyframes animate {
+    0%{
+        background-image: url(bg1.jpg);
+background-repeat: no-repeat;
+background-size: contain;
+    }
+    20%{
+        background-image: url(bg2.jpg); 
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+    40%{
+        background-image: url(bg3.jpg); 
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    60%{
+        background-image: url(bg4.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    80%{
+        background-image: url(bg5.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background-image: url(bg6.jpg); 
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+#two{
+    width: 42em;
+    height: 10em;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#three{
+    width: 42em;
+    height: 10em;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#four{
+    width: 42em;
+    height: 10em;
+    box-sizing: border-box;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+#five{
+    width: 42em;
+    height: 10em;
+    box-sizing: border-box;
+    display: inlin-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#six{
+    width: 42em;
+    height: 10em;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
